@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Scan4Health</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src="https://unpkg.com/html5-qrcode"></script>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#66bb6a">
+
+</head>
+
+<body>
+
+<header class="hero">
+
+<h1>Make Healthier Choices</h1>
+
+<p>Scan product barcodes for WHO-based health ratings</p>
+
+</header>
+
+<div class="buttons">
+
+<button>WHO Standards</button>
+<button>Instant Results</button>
+<button>Detailed Analysis</button>
+
+</div>
+
+<button class="scan-btn" onclick="startScanner()">
+Start Scanning
+</button>
+
+<p class="info">
+Point your camera at a product barcode to begin analysis
+</p>
+
+<div id="reader"></div>
+
+<div id="result"></div>
+
+<div id="manualInput" style="display:none">
+
+<h3>Enter Nutrition Manually</h3>
+
+<input type="number" id="sugarInput" placeholder="Sugar (g)">
+<input type="number" id="fatInput" placeholder="Fat (g)">
+<input type="number" id="saltInput" placeholder="Salt (g)">
+
+<br><br>
+
+<button onclick="calculateManualHealth()">
+Check Health
+</button>
+
+</div>
+
+<script src="script.js"></script>
+
+<script>
+if ("serviceWorker" in navigator) {
+window.addEventListener("load", function () {
+navigator.serviceWorker.register("service-worker.js")
+})
+}
+</script>
+
+</body>
+</html>
