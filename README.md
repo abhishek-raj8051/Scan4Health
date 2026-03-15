@@ -221,4 +221,4 @@ It helps others discover the project and supports the developers.
 
 # 📜 License
 
-This project is developed for **educational purposes**.
+This project is developed for ***educational purposes***
