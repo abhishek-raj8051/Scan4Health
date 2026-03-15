@@ -34,7 +34,7 @@ Users can instantly determine whether a product is:
 
 Try the application here:
 
-https://incredible-bunny-e1ab55.netlify.app/
+https://scan4health.netlify.app/
 
 ---
 
