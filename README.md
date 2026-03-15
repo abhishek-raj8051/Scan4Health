@@ -1,4 +1,4 @@
-# Scan4Health
+#  Scan4Health
 
 <p align="center">
 Smart Food Health Scanner using Barcode Technology
