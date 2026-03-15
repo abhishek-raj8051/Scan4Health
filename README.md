@@ -1,4 +1,4 @@
-![loop](https://github.com/abhishek-raj8051/Scan4Health/blob/main/Scan4Food.jpeg)
+![Scan4Health project logo](https://github.com/abhishek-raj8051/Scan4Health/blob/main/Scan4Food.jpeg)
 #  Scan4Health
 
 <p align="center">
